@@ -1,5 +1,5 @@
 # ACVAE-PyTorch
-PyTorch Code for Adversarial and Contrastive AutoEncoder for Sequential Recommendation.
+PyTorch Code for 'Federated Variational Autoencoder for Sequential Recommendation'.
 
 
 ## Usage
