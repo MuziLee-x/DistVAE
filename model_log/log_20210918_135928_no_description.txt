@@ -1,0 +1,15 @@
+2021-09-18 13:59:28,148 - no description
+2021-09-18 13:59:28,148 - dataset:ml-1m lr1:0.0005 lr2:0.00015 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-18 13:59:28,148 - Using CUDA:0
+2021-09-18 13:59:29,808 - Building net...
+2021-09-18 13:59:29,823 - Net build finished.
+2021-09-18 13:59:29,824 - User datasets loaded and saved.
+2021-09-18 13:59:29,825 - Start training...
+2021-09-18 14:19:10,621 - Traceback (most recent call last):
+  File "trainMe0918.py", line 440, in <module>
+    train()
+  File "trainMe0918.py", line 237, in train
+    net_global = traditionalFedAvg(net_locals_1)
+NameError: name 'traditionalFedAvg' is not defined
+
+2021-09-18 14:19:10,621 - Error.

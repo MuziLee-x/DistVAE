@@ -1,0 +1,19 @@
+2021-09-12 21:24:30,106 - no description
+2021-09-12 21:24:30,106 - dataset:ml-1m lr1:0.001 lr2:0.0003 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-12 21:24:30,106 - Using CUDA:0
+2021-09-12 21:24:31,176 - Building net...
+2021-09-12 21:24:31,191 - Net build finished.
+2021-09-12 21:24:31,192 - User datasets loaded and saved.
+2021-09-12 21:24:31,195 - Start training...
+2021-09-12 21:24:31,218 - Traceback (most recent call last):
+  File "trainMe0912.py", line 306, in <module>
+    train()
+  File "trainMe0912.py", line 214, in train
+    pred, x_real, z_inferred, out_embed = net(batchx)
+  File "/home/lab31/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lab31/FreedomLi/ACVAE-PyTorch-main/Federated_train1+(gru+gruPooling)/modelMe0912.py", line 313, in forward
+    pooling[i] = np.mean(xx[:i].numpy(), axis=1)
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.
+
+2021-09-12 21:24:31,218 - Error.

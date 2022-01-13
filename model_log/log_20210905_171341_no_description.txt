@@ -1,0 +1,15 @@
+2021-09-05 17:13:41,627 - no description
+2021-09-05 17:13:41,627 - dataset:ml-1m lr1:0.001 lr2:0.0003 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-05 17:13:41,627 - Using CUDA:0
+2021-09-05 17:13:42,478 - Building net...
+2021-09-05 17:13:42,493 - Net build finished.
+2021-09-05 17:13:42,494 - User datasets loaded and saved.
+2021-09-05 17:13:42,496 - Start training...
+2021-09-05 17:13:42,497 - Traceback (most recent call last):
+  File "trainMe0904.py", line 301, in <module>
+    train()
+  File "trainMe0904.py", line 203, in train
+    user_id = user_id.to(hyper_params['device'])
+AttributeError: 'str' object has no attribute 'to'
+
+2021-09-05 17:13:42,497 - Error.

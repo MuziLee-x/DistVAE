@@ -1,0 +1,15 @@
+2021-09-05 17:07:22,457 - no description
+2021-09-05 17:07:22,457 - dataset:ml-1m lr1:0.001 lr2:0.0003 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-05 17:07:22,457 - Using CUDA:0
+2021-09-05 17:07:23,363 - Building net...
+2021-09-05 17:07:23,378 - Net build finished.
+2021-09-05 17:07:23,379 - User datasets loaded and saved.
+2021-09-05 17:07:23,381 - Start training...
+2021-09-05 17:07:23,381 - Traceback (most recent call last):
+  File "trainMe0904.py", line 299, in <module>
+    train()
+  File "trainMe0904.py", line 183, in train
+    idxs_users = np.random.choice(range(hyper_params['USER_CNT'], 40, replace=False))
+TypeError: range() takes no keyword arguments
+
+2021-09-05 17:07:23,381 - Error.

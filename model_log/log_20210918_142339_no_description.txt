@@ -1,0 +1,17 @@
+2021-09-18 14:23:39,892 - no description
+2021-09-18 14:23:39,892 - dataset:ml-1m lr1:0.0005 lr2:0.00015 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-18 14:23:39,892 - Using CUDA:0
+2021-09-18 14:23:41,582 - Building net...
+2021-09-18 14:23:41,598 - Net build finished.
+2021-09-18 14:23:41,598 - User datasets loaded and saved.
+2021-09-18 14:23:41,600 - Start training...
+2021-09-18 15:06:43,333 - Traceback (most recent call last):
+  File "trainMe0918.py", line 440, in <module>
+    train()
+  File "trainMe0918.py", line 360, in train
+    net_global = FedAvg(net_locals, z_cluster)
+  File "/home/lili/ACVAE-PyTorch-main/Federated_train1_GMM/Fed0918.py", line 22, in FedAvg
+    total_users += len(z_cluster[k])
+UnboundLocalError: local variable 'total_users' referenced before assignment
+
+2021-09-18 15:06:43,333 - Error.

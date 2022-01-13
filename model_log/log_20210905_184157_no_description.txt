@@ -1,0 +1,15 @@
+2021-09-05 18:41:57,422 - no description
+2021-09-05 18:41:57,422 - dataset:ml-1m lr1:0.001 lr2:0.0003 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-05 18:41:57,422 - Using CUDA:0
+2021-09-05 18:41:58,304 - Building net...
+2021-09-05 18:41:58,319 - Net build finished.
+2021-09-05 18:41:58,320 - User datasets loaded and saved.
+2021-09-05 18:41:58,322 - Start training...
+2021-09-05 18:41:58,323 - Traceback (most recent call last):
+  File "trainMe0904.py", line 305, in <module>
+    train()
+  File "trainMe0904.py", line 200, in train
+    user_id = str(user_id).unsqueeze(0)
+AttributeError: 'str' object has no attribute 'unsqueeze'
+
+2021-09-05 18:41:58,323 - Error.

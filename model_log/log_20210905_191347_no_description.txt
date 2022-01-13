@@ -1,0 +1,9 @@
+2021-09-05 19:13:47,865 - no description
+2021-09-05 19:13:47,865 - dataset:ml-1m lr1:0.001 lr2:0.0003 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-05 19:13:47,865 - Using CUDA:0
+2021-09-05 19:14:10,380 - Building net...
+2021-09-05 19:14:10,392 - Net build finished.
+2021-09-05 19:14:10,393 - User datasets loaded and saved.
+2021-09-05 19:14:10,395 - Start training...
+2021-09-05 19:14:18,027 - EPOCH:(0/350),STEP:40/2000000,vae:464.767889213562,kl:1.192559104738757,contrast:8.162606677412986,prior:94.21441497802735
+2021-09-05 19:14:18,028 - Start validating...

@@ -1,0 +1,15 @@
+2021-09-05 18:44:14,857 - no description
+2021-09-05 18:44:14,857 - dataset:ml-1m lr1:0.001 lr2:0.0003 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-05 18:44:14,857 - Using CUDA:0
+2021-09-05 18:44:15,773 - Building net...
+2021-09-05 18:44:15,788 - Net build finished.
+2021-09-05 18:44:15,788 - User datasets loaded and saved.
+2021-09-05 18:44:15,790 - Start training...
+2021-09-05 18:44:15,792 - Traceback (most recent call last):
+  File "trainMe0904.py", line 305, in <module>
+    train()
+  File "trainMe0904.py", line 201, in train
+    cur_cnt = cur_cnt.unsqueeze(0)
+AttributeError: 'int' object has no attribute 'unsqueeze'
+
+2021-09-05 18:44:15,792 - Error.

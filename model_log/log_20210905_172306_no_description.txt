@@ -1,0 +1,15 @@
+2021-09-05 17:23:06,269 - no description
+2021-09-05 17:23:06,270 - dataset:ml-1m lr1:0.001 lr2:0.0003 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-05 17:23:06,270 - Using CUDA:0
+2021-09-05 17:23:07,169 - Building net...
+2021-09-05 17:23:07,184 - Net build finished.
+2021-09-05 17:23:07,184 - User datasets loaded and saved.
+2021-09-05 17:23:07,186 - Start training...
+2021-09-05 17:23:13,490 - Traceback (most recent call last):
+  File "trainMe0904.py", line 303, in <module>
+    train()
+  File "trainMe0904.py", line 265, in train
+    kl = kl_locals.sum()
+AttributeError: 'list' object has no attribute 'sum'
+
+2021-09-05 17:23:13,490 - Error.

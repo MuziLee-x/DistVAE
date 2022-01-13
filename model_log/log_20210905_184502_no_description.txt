@@ -1,0 +1,19 @@
+2021-09-05 18:45:02,549 - no description
+2021-09-05 18:45:02,549 - dataset:ml-1m lr1:0.001 lr2:0.0003 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-05 18:45:02,549 - Using CUDA:0
+2021-09-05 18:45:03,442 - Building net...
+2021-09-05 18:45:03,457 - Net build finished.
+2021-09-05 18:45:03,457 - User datasets loaded and saved.
+2021-09-05 18:45:03,459 - Start training...
+2021-09-05 18:45:10,185 - EPOCH:(0/350),STEP:40/2000000,vae:18590.71556854248,kl:47.70236418955028,contrast:326.50426709651947,prior:3768.5765991210938
+2021-09-05 18:45:10,186 - Start validating...
+2021-09-05 18:45:10,189 - Traceback (most recent call last):
+  File "trainMe0904.py", line 305, in <module>
+    train()
+  File "trainMe0904.py", line 287, in train
+    validate=True, evaluate_users=hyper_params['evaluate_users'])
+  File "/home/lab31/FreedomLi/ACVAE-PyTorch-main/Federated_train/evaluator0904.py", line 52, in evaluate
+    for _, (batchx, batchy, padding, user_id, cur_cnt) in enumerate(tqdm(dataloader)):
+ValueError: not enough values to unpack (expected 5, got 0)
+
+2021-09-05 18:45:10,189 - Error.

@@ -1,0 +1,8 @@
+*__pycache__
+preprocess/
+datasets/*
+!datasets/ml-latest.txt
+!datasets/ml-1m.txt
+!datasets/ml-10m.txt
+.vscode/
+*.DS_Store

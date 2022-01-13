@@ -1,0 +1,7 @@
+2021-09-18 16:39:40,751 - no description
+2021-09-18 16:39:40,751 - dataset:ml-1m lr1:0.0005 lr2:0.00015 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-18 16:39:40,751 - Using CUDA:0
+2021-09-18 16:39:42,467 - Building net...
+2021-09-18 16:39:42,483 - Net build finished.
+2021-09-18 16:39:42,483 - User datasets loaded and saved.
+2021-09-18 16:39:42,484 - Start training...

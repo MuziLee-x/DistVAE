@@ -1,0 +1,15 @@
+2021-09-17 13:14:43,246 - no description
+2021-09-17 13:14:43,246 - dataset:ml-1m lr1:0.0005 lr2:0.00015 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-17 13:14:43,246 - Using CUDA:0
+2021-09-17 13:15:09,938 - Building net...
+2021-09-17 13:15:09,972 - Net build finished.
+2021-09-17 13:15:09,973 - User datasets loaded and saved.
+2021-09-17 13:15:09,974 - Start training...
+2021-09-17 13:15:10,035 - Traceback (most recent call last):
+  File "trainMe0917.py", line 423, in <module>
+    train()
+  File "trainMe0917.py", line 195, in train
+    padding_z = (1.0 - padding.float()).unsqueeze(2)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+
+2021-09-17 13:15:10,035 - Error.

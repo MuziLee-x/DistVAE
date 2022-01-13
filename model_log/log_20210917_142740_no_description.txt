@@ -1,0 +1,23 @@
+2021-09-17 14:27:40,786 - no description
+2021-09-17 14:27:40,786 - dataset:ml-1m lr1:0.0005 lr2:0.00015 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-17 14:27:40,786 - Using CUDA:0
+2021-09-17 14:27:42,531 - Building net...
+2021-09-17 14:27:42,544 - Net build finished.
+2021-09-17 14:27:42,544 - User datasets loaded and saved.
+2021-09-17 14:27:42,545 - Start training...
+2021-09-17 14:27:42,573 - Traceback (most recent call last):
+  File "trainMe0917.py", line 423, in <module>
+    train()
+  File "trainMe0917.py", line 207, in train
+    pred, x_real, z_inferred, out_embed = net(batchx)
+  File "/home/lili/anaconda3/envs/vv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/lili/ACVAE-PyTorch-main/Federated_train1_GMM/modelMe0916.py", line 306, in forward
+    z_inferred = self.encoder(rnn_out)
+  File "/home/lili/anaconda3/envs/vv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/lili/ACVAE-PyTorch-main/Federated_train1_GMM/modelMe0916.py", line 148, in forward
+    attention_mask = torch.mul(attention_scores, mask)
+RuntimeError: expected device cpu and dtype Float but got device cpu and dtype Long
+
+2021-09-17 14:27:42,573 - Error.

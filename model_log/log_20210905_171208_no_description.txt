@@ -1,0 +1,15 @@
+2021-09-05 17:12:08,189 - no description
+2021-09-05 17:12:08,189 - dataset:ml-1m lr1:0.001 lr2:0.0003 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-05 17:12:08,189 - Using CUDA:0
+2021-09-05 17:12:09,104 - Building net...
+2021-09-05 17:12:09,119 - Net build finished.
+2021-09-05 17:12:09,119 - User datasets loaded and saved.
+2021-09-05 17:12:09,121 - Start training...
+2021-09-05 17:12:09,126 - Traceback (most recent call last):
+  File "trainMe0904.py", line 299, in <module>
+    train()
+  File "trainMe0904.py", line 201, in train
+    user_id = user_id.to(hyper_params['device'])
+AttributeError: 'int' object has no attribute 'to'
+
+2021-09-05 17:12:09,126 - Error.

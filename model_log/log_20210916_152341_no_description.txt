@@ -1,0 +1,15 @@
+2021-09-16 15:23:41,493 - no description
+2021-09-16 15:23:41,493 - dataset:ml-1m lr1:0.0005 lr2:0.00015 kl:0.05 contrast:0.1 batch:1 model_func:fc_att
+2021-09-16 15:23:41,493 - Using CUDA:0
+2021-09-16 15:23:42,580 - Building net...
+2021-09-16 15:23:42,593 - Net build finished.
+2021-09-16 15:23:42,593 - User datasets loaded and saved.
+2021-09-16 15:23:42,595 - Start training...
+2021-09-16 15:40:24,842 - Traceback (most recent call last):
+  File "trainMe0916.py", line 408, in <module>
+    train()
+  File "trainMe0916.py", line 250, in train
+    tmp.append(latent_z_[i].numpy().tolist())
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.
+
+2021-09-16 15:40:24,842 - Error.
