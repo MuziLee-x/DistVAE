@@ -1,5 +1,5 @@
 # ACVAE-PyTorch
-PyTorch Code for 'DistVAE: Disttributed Variational Autoencoder for Sequential Recommendation'.
+PyTorch Code for 'DistVAE: Distributed Variational Autoencoder for Sequential Recommendation'.
 
 
 ## Usage
